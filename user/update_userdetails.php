@@ -145,7 +145,7 @@
 
 <!--  header -->
 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Safari Hotel</a>
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Ekho Safari Hotel</a>
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
@@ -227,6 +227,10 @@
             <div class="col-md-8 order-md-1">
                 <h4 class="mb-3">User view</h4>
                 <form class="needs-validation" novalidate="">
+
+                    <div class="mt-2 mb-4">This page allow users to update their details</div>
+
+
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label for="firstName">Firstname</label>
@@ -259,6 +263,17 @@
                     </div>
                 </div>
             </div>
+
+                    <div>
+                        <footer class="my-5 pt-5 text-muted text-center text-small">
+                            <p class="mb-1">© 2018-2021 Ekho Safari</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                                <li class="list-inline-item"><a href="#">Terms</a></li>
+                                <li class="list-inline-item"><a href="#">Support</a></li>
+                            </ul>
+                        </footer>
+
 
 
 

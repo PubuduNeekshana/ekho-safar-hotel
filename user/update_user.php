@@ -172,231 +172,111 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <span data-feather="file"></span>
-                            Orders
+                            Users
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <span data-feather="shopping-cart"></span>
-                            Products
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="users"></span>
                             Customers
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
+                            <span data-feather="users"></span>
+                            Billing
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
                             <span data-feather="bar-chart-2"></span>
-                            Reports
+                            Inventory
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <span data-feather="layers"></span>
-                            Integrations
-                        </a>
-                    </li>
-                </ul>
-
-                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                    <span>Saved reports</span>
-                    <a class="d-flex align-items-center text-muted" href="#" aria-label="Add a new report">
-                        <span data-feather="plus-circle"></span>
-                    </a>
-                </h6>
-                <ul class="nav flex-column mb-2">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Current month
+                            Event
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Last quarter
+                            <span data-feather="layers"></span>
+                            Room Reservation
                         </a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Social engagement
+                            <span data-feather="layers"></span>
+                            Web page
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Year-end sale
-                        </a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-
-
-
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 
-            <div class="col-md-8 order-md-1 mt-3">
-                <h4 class="mb-3">Billing address</h4>
+            <img src="king.jpg" class="img-thumbnail" width="100%" height="500">
+
+            <div class="col-md-8 order-md-1">
                 <form class="needs-validation" novalidate="">
+                    <p><b>Enter the following details</b></p>
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <label for="firstName">First name</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                            <label for="firstName">Username</label>
+                            <input type="text" class="form-control" id="Username" placeholder="" value="" required="">
                             <div class="invalid-feedback">
-                                Valid first name is required.
+                                Valid username is required.
                             </div>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <button type="button" class="btn btn-primary">Primary</button>
-                            <label for="lastName">Last name</label>
-                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                            <label for="lastName">Password</label>
+                            <input type="text" class="form-control" id="Password" placeholder="" value="" required="">
                             <div class="invalid-feedback">
-                                Valid last name is required.
+                                Valid Password is required.
                             </div>
                         </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="username">Username</label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">@</span>
-                            </div>
-                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
-                            <div class="invalid-feedback" style="width: 100%;">
-                                Your username is required.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="email">Email <span class="text-muted">(Optional)</span></label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                        <div class="invalid-feedback">
-                            Please enter a valid email address for shipping updates.
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="address">Address</label>
-                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-                        <div class="invalid-feedback">
-                            Please enter your shipping address.
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
-                        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
                     </div>
 
                     <div class="row">
                         <div class="col-md-5 mb-3">
-                            <label for="country">Country</label>
-                            <select class="custom-select d-block w-100" id="country" required="">
+                            <label for="Status">Status</label>
+                            <select class="custom-select d-block w-100" id="Status" required="">
                                 <option value="">Choose...</option>
-                                <option>United States</option>
+                                <option>Active</option>
+                                <option>Inactive</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please select a valid country.
+                                Please select a valid status.
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
-                            <label for="state">State</label>
+                            <label for="Type">Type</label>
                             <select class="custom-select d-block w-100" id="state" required="">
                                 <option value="">Choose...</option>
-                                <option>California</option>
+                                <option>Admin</option>
+                                <option>User</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please provide a valid state.
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="zip">Zip</label>
-                            <input type="text" class="form-control" id="zip" placeholder="" required="">
-                            <div class="invalid-feedback">
-                                Zip code required.
+                                Please provide a valid type.
                             </div>
                         </div>
                     </div>
-                    <hr class="mb-4">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="same-address">
-                        <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
-                    </div>
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="save-info">
-                        <label class="custom-control-label" for="save-info">Save this information for next time</label>
-                    </div>
-                    <hr class="mb-4">
-
-                    <h4 class="mb-3">Payment</h4>
-
-                    <div class="d-block my-3">
-                        <div class="custom-control custom-radio">
-                            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
-                            <label class="custom-control-label" for="credit">Credit card</label>
-                        </div>
-                        <div class="custom-control custom-radio">
-                            <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                            <label class="custom-control-label" for="debit">Debit card</label>
-                        </div>
-                        <div class="custom-control custom-radio">
-                            <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                            <label class="custom-control-label" for="paypal">PayPal</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="cc-name">Name on card</label>
-                            <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-                            <small class="text-muted">Full name as displayed on card</small>
-                            <div class="invalid-feedback">
-                                Name on card is required
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="cc-number">Credit card number</label>
-                            <input type="text" class="form-control" id="cc-number" placeholder="" required="">
-                            <div class="invalid-feedback">
-                                Credit card number is required
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 mb-3">
-                            <label for="cc-expiration">Expiration</label>
-                            <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
-                            <div class="invalid-feedback">
-                                Expiration date required
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="cc-cvv">CVV</label>
-                            <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
-                            <div class="invalid-feedback">
-                                Security code required
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="mb-4">
-                    <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                    <hr class="mb-3">
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+                    <p>Click "submit" button to submit your details</p>
                 </form>
             </div>
-
-            
-
-
-
-
-
-
+            <div>
+                <footer class="my-5 pt-5 text-muted text-center text-small">
+                    <p class="mb-1">© 2018-2021 Ekho Safari</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">Privacy</a></li>
+                        <li class="list-inline-item"><a href="#">Terms</a></li>
+                        <li class="list-inline-item"><a href="#">Support</a></li>
+                    </ul>
+                </footer>
         </main>
     </div>
 </div>
